@@ -1,0 +1,78 @@
+{
+  "uid" : "55468567a94fef4a",
+  "name" : "test_loginpower[datas0]",
+  "fullName" : "Test_case.test_login#test_loginpower",
+  "historyId" : "d0f338f776df20f2435680998663079a",
+  "time" : {
+    "start" : 1636795639814,
+    "stop" : 1636795639934,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7874944d1535a4f8",
+      "name" : "log",
+      "source" : "7874944d1535a4f8.txt",
+      "type" : "text/plain",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录的接口"
+  }, {
+    "name" : "epic",
+    "value" : "这是一个接口测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-6TAGF6TC"
+  }, {
+    "name" : "thread",
+    "value" : "32488-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'用例编号': 'bxt_api_001', '所属项目': '运营后台', '所属模块': '登陆', '用例标题': '正确账号密码登陆成功', '请求地址': 'http://test1.boxingtong.net:5222/token/getToken', '请求方式': 'post', '请求参数': '{\"username\":\"tao.yue\",\"password\":\"8b7fb7faba5d48ce352be71e798336\",\"type\":\"0\",\"sign\":\"e37c848e62e3d7157741546d2fff85b2\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":{\\n  \"code\":null,\\n  \"data\":null,\\n  \"key\":\"fisher,.bxt\",\\n  \"message\":null,\\n  \"tocken\":\"26286ec55fad4de39ae83c980d10fa3d0\",\\n  \"userFlag\":0\\n },\\n \"message\":\"获取TOKEN成功\"\\n}', '实际结果': None, '执行人': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55468567a94fef4a.json",
+  "parameterValues" : [ "{'用例编号': 'bxt_api_001', '所属项目': '运营后台', '所属模块': '登陆', '用例标题': '正确账号密码登陆成功', '请求地址': 'http://test1.boxingtong.net:5222/token/getToken', '请求方式': 'post', '请求参数': '{\"username\":\"tao.yue\",\"password\":\"8b7fb7faba5d48ce352be71e798336\",\"type\":\"0\",\"sign\":\"e37c848e62e3d7157741546d2fff85b2\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":{\\n  \"code\":null,\\n  \"data\":null,\\n  \"key\":\"fisher,.bxt\",\\n  \"message\":null,\\n  \"tocken\":\"26286ec55fad4de39ae83c980d10fa3d0\",\\n  \"userFlag\":0\\n },\\n \"message\":\"获取TOKEN成功\"\\n}', '实际结果': None, '执行人': None}" ]
+}

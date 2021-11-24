@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-6TAGF6TC",
+    "children" : [ {
+      "name" : "32488-MainThread",
+      "children" : [ {
+        "name" : "test_loginpower[datas0]",
+        "uid" : "55468567a94fef4a",
+        "parentUid" : "26e5bef75b9166b4e1ca37d18dbcd63d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636795639814,
+          "stop" : 1636795639934,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例编号': 'bxt_api_001', '所属项目': '运营后台', '所属模块': '登陆', '用例标题': '正确账号密码登陆成功', '请求地址': 'http://test1.boxingtong.net:5222/token/getToken', '请求方式': 'post', '请求参数': '{\"username\":\"tao.yue\",\"password\":\"8b7fb7faba5d48ce352be71e798336\",\"type\":\"0\",\"sign\":\"e37c848e62e3d7157741546d2fff85b2\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":{\\n  \"code\":null,\\n  \"data\":null,\\n  \"key\":\"fisher,.bxt\",\\n  \"message\":null,\\n  \"tocken\":\"26286ec55fad4de39ae83c980d10fa3d0\",\\n  \"userFlag\":0\\n },\\n \"message\":\"获取TOKEN成功\"\\n}', '实际结果': None, '执行人': None}" ]
+      } ],
+      "uid" : "26e5bef75b9166b4e1ca37d18dbcd63d"
+    } ],
+    "uid" : "e9b795425ff0376d4a7481a038731b36"
+  } ]
+}

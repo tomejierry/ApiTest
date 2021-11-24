@@ -1,0 +1,11 @@
+[ {
+  "uid" : "55468567a94fef4a",
+  "name" : "test_loginpower[datas0]",
+  "time" : {
+    "start" : 1636795639814,
+    "stop" : 1636795639934,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
