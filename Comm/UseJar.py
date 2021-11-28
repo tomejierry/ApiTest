@@ -3,9 +3,7 @@ import jpype
 import time
 
 from jpype import *
-from ApiTest.Comm.Logtype import loggings
 from ApiTest.Comm.Howrequest import call
-import requests
 from ApiTest.Comm.Filepath import casepath
 
 

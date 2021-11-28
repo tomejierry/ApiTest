@@ -4,10 +4,9 @@ import jpype
 
 from jpype import *
 from ApiTest.Comm.UseJar import JAVA_Public
-from loguru import logger
+from ApiTest.Comm.Logtype import loggings
 
 js = JAVA_Public('Data', 'fisher-jmetertoken.jar')
-
 gettoken = js.gettoken()
 
 
@@ -27,7 +26,7 @@ class LoginPower(object):
         self.map.put('timestmap', time1)
 
         sign = self.signutil.getSign(self.map)                           # 拼接签名
-        logger.info('获取token：' + gettoken[1])
+        loggings.info('获取token：' + gettoken[1])
 
         header = {'Time-Stamp': time1, 'Sign-Name': str(sign), 'Token': gettoken[1]}
 
