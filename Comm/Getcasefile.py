@@ -2,48 +2,48 @@
 from ApiTest.Comm.Filepath import casepath
 
 import openpyxl
-from ApiTest.Comm.Logtype import loggings
+from loguru import logger
 
 
-def copy_excel(newfile_path):
-
-    """ 复制一个表格的数据，写入到另一个新表中 """
-
-    # 新建excel
-    wb2 = openpyxl.Workbook()
-    wb2.save(newfile_path)
-    print('新建成功')
-
-    # 读取数据
-
-    case = casepath('Data', 'case.xlsx')
-    wb1 = openpyxl.load_workbook(case)
-
-    wb2 = openpyxl.load_workbook(newfile_path)
-
-    sheet1 = wb1['Sheet1']
-    sheet2 = wb2['Sheet1']
-
-    max_row = sheet1.max_row  # 最大行数
-    max_column = sheet1.max_column  # 最大列数
-
-    for m in range(1, max_row + 1):
-        for n in range(97, 97 + max_column):  # chr(97)='a'
-            n = chr(n)  # ASCII字符
-            i = '%s%d' % (n, m)  # 单元格编号
-            cell1 = sheet1[i].value  # 获取data单元格数据
-            sheet2[i].value = cell1  # 赋值到test单元格
-
-    wb2.save(newfile_path)  # 保存数据
-    wb1.close()  # 关闭excel
-    wb2.close()
+# def copy_excel(newfile_path):
+#
+#     """ 复制一个表格的数据，写入到另一个新表中 """
+#
+#     # 新建excel
+#     wb2 = openpyxl.Workbook()
+#     wb2.save(newfile_path)
+#     print('新建成功')
+#
+#     # 读取数据
+#
+#     case = casepath('Data', 'case.xlsx')
+#     wb1 = openpyxl.load_workbook(case)
+#
+#     wb2 = openpyxl.load_workbook(newfile_path)
+#
+#     sheet1 = wb1['Sheet1']
+#     sheet2 = wb2['Sheet1']
+#
+#     max_row = sheet1.max_row  # 最大行数
+#     max_column = sheet1.max_column  # 最大列数
+#
+#     for m in range(1, max_row + 1):
+#         for n in range(97, 97 + max_column):  # chr(97)='a'
+#             n = chr(n)  # ASCII字符
+#             i = '%s%d' % (n, m)  # 单元格编号
+#             cell1 = sheet1[i].value  # 获取data单元格数据
+#             sheet2[i].value = cell1  # 赋值到test单元格
+#
+#     wb2.save(newfile_path)  # 保存数据
+#     wb1.close()  # 关闭excel
+#     wb2.close()
 
 
 class ReadExcel(object):
     def __init__(self, dirname, filename, sheet_name):
 
         self.filename = casepath(dirname, filename)
-        loggings.info('用例From:' + self.filename)
+        logger.info('用例From:' + self.filename)
         self.sheet_name = sheet_name
         self.wb = openpyxl.load_workbook(self.filename)  # 获取工作簿对象
         self.sh = self.wb[self.sheet_name]  # 选择表单
@@ -81,5 +81,5 @@ if __name__ == '__main__':
 
     case1 = data.read_data(1, None)
 
-    copy_excel('D:\\workingpaper\\test.xlsx')
+    # copy_excel('D:\\workingpaper\\test.xlsx')
     print(case1)

@@ -41,21 +41,22 @@ class JAVA_Public(object):
         pcsign = self.signutil.getSign(self.map)
 
         header = {'Time-Stamp': pctime, 'Sign-Name': str(pcsign), 'Token': str(pctoken)}
+        parm = {'username': 'tao.yue', 'password': '8b7fb7faba5d48ce352be71e798336', 'type': 0,
+                'sign': 'e37c848e62e3d7157741546d2fff85b2'}
 
-        parm = {"username": "tao.yue", "password": "8b7fb7faba5d48ce352be71e798336",
-                "type": "0", "sign": "e37c848e62e3d7157741546d2fff85b2"}
         request = call('http://test1.boxingtong.net:5222/token/getToken', 'post', headers=header, params=parm)
         body = request.json()
-        print(body)
+        # print(body)
 
-        gettoken = body['data']['tocken']
+        token = body['data']['tocken']
+        # print(token)
 
-        return header, gettoken
+        return header, token
 
-
-if __name__ == "__main__":
-    java = JAVA_Public('Data', 'fisher-jmetertoken.jar')
-
-    a = java.gettoken()
-    jpype.shutdownJVM()  # 关闭JAVA环境
+#
+# if __name__ == "__main__":
+#     java = JAVA_Public('Data', 'fisher-jmetertoken.jar')
+#
+#     a = java.gettoken()
+#     jpype.shutdownJVM()  # 关闭JAVA环境
 

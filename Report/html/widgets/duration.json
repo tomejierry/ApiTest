@@ -1,10 +1,90 @@
 [ {
-  "uid" : "55468567a94fef4a",
-  "name" : "test_loginpower[datas0]",
+  "uid" : "3a487de2615e98ef",
+  "name" : "接口: bxt_api_002-ActiveStatistics（活跃数据）",
   "time" : {
-    "start" : 1636795639814,
-    "stop" : 1636795639934,
-    "duration" : 120
+    "start" : 1638100888418,
+    "stop" : 1638100888455,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c26c4685c7328d3b",
+  "name" : "接口: bxt_api_006-queryMoney（收入确认）",
+  "time" : {
+    "start" : 1638100889677,
+    "stop" : 1638100889717,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfc164a79499f563",
+  "name" : "接口: bxt_api_004-queryTrafficAvg（日均流量消耗",
+  "time" : {
+    "start" : 1638100888525,
+    "stop" : 1638100888573,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b3f4ebcff4b8cb6",
+  "name" : "接口: bxt_api_005-OrderMoney（波贝销售）",
+  "time" : {
+    "start" : 1638100888576,
+    "stop" : 1638100889670,
+    "duration" : 1094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66182537abd7afbf",
+  "name" : "接口: bxt_api_001-正确账号密码登录成功",
+  "time" : {
+    "start" : 1638100888347,
+    "stop" : 1638100888411,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70a1ea8c3ed44963",
+  "name" : "接口: bxt_api_003-queryTraffic（流量消耗",
+  "time" : {
+    "start" : 1638100888461,
+    "stop" : 1638100888519,
+    "duration" : 58
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f146bac98c33018b",
+  "name" : "接口: bxt_api_007-newUser（昨日新增注册用户数）",
+  "time" : {
+    "start" : 1638100889724,
+    "stop" : 1638100889827,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6411473eb779a8d",
+  "name" : "接口: bxt_api_008-countShipIncrement（昨日新增注册船只）",
+  "time" : {
+    "start" : 1638100889834,
+    "stop" : 1638100889901,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "948d687ab5ba7e5b",
+  "name" : "接口: bxt_api_009-queryShipToZoo（昨日跌零船只数）",
+  "time" : {
+    "start" : 1638100889905,
+    "stop" : 1638100889941,
+    "duration" : 36
   },
   "status" : "passed",
   "severity" : "normal"
