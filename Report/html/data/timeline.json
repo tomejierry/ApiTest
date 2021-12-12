@@ -1,130 +1,130 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
     "name" : "LAPTOP-6TAGF6TC",
     "children" : [ {
-      "name" : "11516-MainThread",
+      "name" : "30700-MainThread",
       "children" : [ {
-        "name" : "接口: bxt_api_007-newUser（昨日新增注册用户数）",
-        "uid" : "7e9dabd1d75ea180",
-        "parentUid" : "66d08b7c04ce02a430507a696667b686",
-        "status" : "passed",
-        "time" : {
-          "start" : 1638103258677,
-          "stop" : 1638103258780,
-          "duration" : 103
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'用例编号': 'bxt_api_007', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'newUser（昨日新增注册用户数）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/newUser', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
-      }, {
         "name" : "接口: bxt_api_009-queryShipToZoo（昨日跌零船只数）",
-        "uid" : "49eb9707e48edca9",
-        "parentUid" : "66d08b7c04ce02a430507a696667b686",
-        "status" : "passed",
+        "uid" : "3f43e3fdc039e56f",
+        "parentUid" : "dbbab3f13ae9267acf608d4faab527f3",
+        "status" : "failed",
         "time" : {
-          "start" : 1638103258853,
-          "stop" : 1638103258894,
-          "duration" : 41
+          "start" : 1639285186016,
+          "stop" : 1639285186262,
+          "duration" : 246
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'用例编号': 'bxt_api_009', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'queryShipToZoo（昨日跌零船只数）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/queryShipToZoo', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
-      }, {
-        "name" : "接口: bxt_api_008-countShipIncrement（昨日新增注册船只）",
-        "uid" : "7f6baeb28d3cf5ef",
-        "parentUid" : "66d08b7c04ce02a430507a696667b686",
-        "status" : "passed",
-        "time" : {
-          "start" : 1638103258784,
-          "stop" : 1638103258848,
-          "duration" : 64
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'用例编号': 'bxt_api_008', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'countShipIncrement（昨日新增注册船只）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/ship/countShipIncrement', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
-      }, {
-        "name" : "接口: bxt_api_002-ActiveStatistics（活跃数据）",
-        "uid" : "79ec0e7ecd30a98e",
-        "parentUid" : "66d08b7c04ce02a430507a696667b686",
-        "status" : "passed",
-        "time" : {
-          "start" : 1638103258368,
-          "stop" : 1638103258401,
-          "duration" : 33
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'用例编号': 'bxt_api_002', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'ActiveStatistics（活跃数据）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/queryActiveStatistics', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
+        "parameters" : [ "{'用例编号': 'bxt_api_009', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'queryShipToZoo（昨日跌零船只数）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/queryShipToZoo', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":2,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
       }, {
         "name" : "接口: bxt_api_005-OrderMoney（波贝销售）",
-        "uid" : "731f45a66f0ccc84",
-        "parentUid" : "66d08b7c04ce02a430507a696667b686",
+        "uid" : "9c9787a4a1cb7108",
+        "parentUid" : "dbbab3f13ae9267acf608d4faab527f3",
         "status" : "passed",
         "time" : {
-          "start" : 1638103258523,
-          "stop" : 1638103258624,
-          "duration" : 101
+          "start" : 1639285185551,
+          "stop" : 1639285185744,
+          "duration" : 193
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'用例编号': 'bxt_api_005', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'OrderMoney（波贝销售）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/queryOrderMoney', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
       }, {
-        "name" : "接口: bxt_api_004-queryTrafficAvg（日均流量消耗",
-        "uid" : "393f3d90dbe4e80e",
-        "parentUid" : "66d08b7c04ce02a430507a696667b686",
+        "name" : "接口: bxt_api_004-queryTrafficAvg（日均流量消耗）",
+        "uid" : "462a1095363988b1",
+        "parentUid" : "dbbab3f13ae9267acf608d4faab527f3",
         "status" : "passed",
         "time" : {
-          "start" : 1638103258457,
-          "stop" : 1638103258519,
-          "duration" : 62
+          "start" : 1639285185502,
+          "stop" : 1639285185547,
+          "duration" : 45
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'用例编号': 'bxt_api_004', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'queryTrafficAvg（日均流量消耗', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/queryTrafficAvg', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
+        "parameters" : [ "{'用例编号': 'bxt_api_004', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'queryTrafficAvg（日均流量消耗）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/queryTrafficAvg', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
       }, {
-        "name" : "接口: bxt_api_006-queryMoney（收入确认）",
-        "uid" : "9709cd5289a90807",
-        "parentUid" : "66d08b7c04ce02a430507a696667b686",
+        "name" : "接口: bxt_api_008-countShipIncrement（昨日新增注册船只）",
+        "uid" : "709accd4131c0517",
+        "parentUid" : "dbbab3f13ae9267acf608d4faab527f3",
         "status" : "passed",
         "time" : {
-          "start" : 1638103258631,
-          "stop" : 1638103258670,
-          "duration" : 39
+          "start" : 1639285185926,
+          "stop" : 1639285186009,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例编号': 'bxt_api_008', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'countShipIncrement（昨日新增注册船只）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/ship/countShipIncrement', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
+      }, {
+        "name" : "接口: bxt_api_006-queryMoney（收入确认）",
+        "uid" : "c095e5171a920375",
+        "parentUid" : "dbbab3f13ae9267acf608d4faab527f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639285185750,
+          "stop" : 1639285185793,
+          "duration" : 43
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'用例编号': 'bxt_api_006', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'queryMoney（收入确认）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/queryMoney', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
       }, {
         "name" : "接口: bxt_api_001-正确账号密码登录成功",
-        "uid" : "d21e4081daf1d3d6",
-        "parentUid" : "66d08b7c04ce02a430507a696667b686",
+        "uid" : "e3f555af60845b0",
+        "parentUid" : "dbbab3f13ae9267acf608d4faab527f3",
         "status" : "passed",
         "time" : {
-          "start" : 1638103258306,
-          "stop" : 1638103258362,
-          "duration" : 56
+          "start" : 1639285185323,
+          "stop" : 1639285185408,
+          "duration" : 85
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'用例编号': 'bxt_api_001', '所属项目': '运营后台', '所属模块': '登陆', '用例标题': '正确账号密码登录成功', '请求地址': 'http://test1.boxingtong.net:5222/token/loginPower', '请求方式': 'get', '请求参数': '{\"sign\":\"4b2ac8c71f91d1c189efc5d6c766ea\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":{\\n  \"bindStatus\":\"0\",\\n  \"cardId\":null,\\n  \"createId\":null,\\n  \"createTime\":1625467455000,\\n  \"deleteFlag\":null,\\n  \"headImageUrl\":null,\\n  \"id\":213,\\n  \"loginTime\":1637936572000,\\n  \"macAddr\":null,\\n  \"name\":\"岳涛\",\\n  \"nickname\":null,\\n  \"partnerIds\":\"\",\\n  \"password\":\"8b7fb7faba5d48ce352be71e798336\",\\n  \"phone\":\"15921104378\",\\n  \"powersList\":[]},\"message\":\"登录成功！\"}'}" ]
       }, {
-        "name" : "接口: bxt_api_003-queryTraffic（流量消耗",
-        "uid" : "14f178d93cfd59c6",
-        "parentUid" : "66d08b7c04ce02a430507a696667b686",
+        "name" : "接口: bxt_api_002-ActiveStatistics（活跃数据）",
+        "uid" : "5daf57b777e11b17",
+        "parentUid" : "dbbab3f13ae9267acf608d4faab527f3",
         "status" : "passed",
         "time" : {
-          "start" : 1638103258408,
-          "stop" : 1638103258450,
-          "duration" : 42
+          "start" : 1639285185413,
+          "stop" : 1639285185444,
+          "duration" : 31
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'用例编号': 'bxt_api_003', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'queryTraffic（流量消耗', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/queryTraffic', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
+        "parameters" : [ "{'用例编号': 'bxt_api_002', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'ActiveStatistics（活跃数据）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/queryActiveStatistics', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
+      }, {
+        "name" : "接口: bxt_api_007-newUser（昨日新增注册用户数）",
+        "uid" : "d71e1c9738de330",
+        "parentUid" : "dbbab3f13ae9267acf608d4faab527f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639285185796,
+          "stop" : 1639285185919,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例编号': 'bxt_api_007', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'newUser（昨日新增注册用户数）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/newUser', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
+      }, {
+        "name" : "接口: bxt_api_003-queryTraffic（流量消耗）",
+        "uid" : "2cc66e4b636fc4e",
+        "parentUid" : "dbbab3f13ae9267acf608d4faab527f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639285185450,
+          "stop" : 1639285185495,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例编号': 'bxt_api_003', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'queryTraffic（流量消耗）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/queryTraffic', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
       } ],
-      "uid" : "66d08b7c04ce02a430507a696667b686"
+      "uid" : "dbbab3f13ae9267acf608d4faab527f3"
     } ],
     "uid" : "e9b795425ff0376d4a7481a038731b36"
-  } ],
-  "name" : "timeline"
+  } ]
 }

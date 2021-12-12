@@ -8,7 +8,7 @@ class ReadExcel(object):
     def __init__(self, dirname, filename, sheet_name):
 
         self.filename = casepath(dirname, filename)
-        loggings.info('用例From:' + self.filename)
+
         self.sheet_name = sheet_name
         self.wb = openpyxl.load_workbook(self.filename)  # 获取工作簿对象
         self.sh = self.wb[self.sheet_name]  # 选择表单

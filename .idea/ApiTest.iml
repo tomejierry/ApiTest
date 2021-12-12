@@ -9,4 +9,10 @@
     <orderEntry type="module" module-name="UITEST" />
     <orderEntry type="module" module-name="PfmTest" />
   </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
 </module>

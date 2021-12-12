@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
-  "name" : "categories"
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: FAILURE: code码不正确响应: 1, 预期: 2\nassert '1' == '2'\n  - 2\n  + 1\ntest_boxingtong.py:56 in test_Eeop() -> check.equal(str(code), case_code, 'code码不正确' + '响应: ' + str(code) + ', 预期: ' + case_code)\n------------------------------------------------------------\nFailed Checks: 1",
+      "children" : [ {
+        "name" : "接口: bxt_api_009-queryShipToZoo（昨日跌零船只数）",
+        "uid" : "3f43e3fdc039e56f",
+        "parentUid" : "903d067923bbdc103a38ca2eb807dc6c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1639285186016,
+          "stop" : 1639285186262,
+          "duration" : 246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例编号': 'bxt_api_009', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'queryShipToZoo（昨日跌零船只数）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/queryShipToZoo', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":2,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
+      } ],
+      "uid" : "903d067923bbdc103a38ca2eb807dc6c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

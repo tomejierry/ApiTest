@@ -2,6 +2,7 @@
 import jpype
 import time
 
+import requests
 from jpype import *
 from ApiTest.Comm.Howrequest import call
 from ApiTest.Comm.Filepath import casepath
@@ -42,7 +43,8 @@ class JAVA_Public(object):
         parm = {'username': 'tao.yue', 'password': '8b7fb7faba5d48ce352be71e798336', 'type': 0,
                 'sign': 'e37c848e62e3d7157741546d2fff85b2'}
 
-        request = call('http://test1.boxingtong.net:5222/token/getToken', 'post', headers=header, params=parm)
+        request = requests.request(method='post', url='http://test1.boxingtong.net:5222/token/getToken',
+                                   headers=header, params=parm)
         body = request.json()
         # print(body)
 
