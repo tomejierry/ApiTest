@@ -4,10 +4,10 @@
     "uid" : "02feb70386da6ac382b3d26f3c7cacc9",
     "name" : "波星通运营管理系统",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

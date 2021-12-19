@@ -1,0 +1,73 @@
+2021-12-06 22:20:52.001 | INFO     | ApiTest.Comm.Logtype:info:22 - 开始执行接口自动化用例
+2021-12-06 22:20:52.900 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例From:D:\program\ApiTest\Data\api_test.xlsx
+2021-12-06 22:20:52.923 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例编号: bxt_api_001 用例标题: 正确账号密码登录成功
+2021-12-06 22:20:52.923 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求地址：http://test1.boxingtong.net:5222/token/loginPower 请求方式get
+2021-12-06 22:20:52.924 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求参数：{'sign': '4b2ac8c71f91d1c189efc5d6c766ea'}
+2021-12-06 22:20:52.924 | INFO     | ApiTest.Comm.Logtype:info:22 - 获取token：beddf2d252cf45dfbef665b3c02db5ee0
+2021-12-06 22:20:53.088 | INFO     | ApiTest.Comm.Logtype:info:22 - message: 登录成功！
+2021-12-06 22:20:53.088 | INFO     | ApiTest.Comm.Logtype:info:22 - code响应正确预期:1==响应:1
+2021-12-06 22:20:53.089 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例通过
+2021-12-06 22:20:53.096 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例编号: bxt_api_002 用例标题: ActiveStatistics（活跃数据）
+2021-12-06 22:20:53.097 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求地址：http://test1.boxingtong.net:5222/analyse/dashboard/queryActiveStatistics 请求方式get
+2021-12-06 22:20:53.097 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求参数：{'sign': '4f944222711338bdbbfa8b13bb97ca3a', 'days': '7'}
+2021-12-06 22:20:53.098 | INFO     | ApiTest.Comm.Logtype:info:22 - 获取token：beddf2d252cf45dfbef665b3c02db5ee0
+2021-12-06 22:20:53.170 | INFO     | ApiTest.Comm.Logtype:info:22 - message: 操作成功！
+2021-12-06 22:20:53.171 | INFO     | ApiTest.Comm.Logtype:info:22 - code响应正确预期:1==响应:1
+2021-12-06 22:20:53.171 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例通过
+2021-12-06 22:20:53.176 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例编号: bxt_api_003 用例标题: queryTraffic（流量消耗
+2021-12-06 22:20:53.177 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求地址：http://test1.boxingtong.net:5222/analyse/dashboard/queryTraffic 请求方式get
+2021-12-06 22:20:53.177 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求参数：{'sign': '4f944222711338bdbbfa8b13bb97ca3a', 'days': '7'}
+2021-12-06 22:20:53.178 | INFO     | ApiTest.Comm.Logtype:info:22 - 获取token：beddf2d252cf45dfbef665b3c02db5ee0
+2021-12-06 22:20:53.263 | INFO     | ApiTest.Comm.Logtype:info:22 - message: 操作成功！
+2021-12-06 22:20:53.263 | INFO     | ApiTest.Comm.Logtype:info:22 - code响应正确预期:1==响应:1
+2021-12-06 22:20:53.264 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例通过
+2021-12-06 22:20:53.272 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例编号: bxt_api_004 用例标题: queryTrafficAvg（日均流量消耗
+2021-12-06 22:20:53.273 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求地址：http://test1.boxingtong.net:5222/analyse/dashboard/queryTrafficAvg 请求方式get
+2021-12-06 22:20:53.273 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求参数：{'sign': '4f944222711338bdbbfa8b13bb97ca3a', 'days': '7'}
+2021-12-06 22:20:53.274 | INFO     | ApiTest.Comm.Logtype:info:22 - 获取token：beddf2d252cf45dfbef665b3c02db5ee0
+2021-12-06 22:20:53.421 | INFO     | ApiTest.Comm.Logtype:info:22 - message: 操作成功！
+2021-12-06 22:20:53.422 | INFO     | ApiTest.Comm.Logtype:info:22 - code响应正确预期:1==响应:1
+2021-12-06 22:20:53.422 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例通过
+2021-12-06 22:20:53.426 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例编号: bxt_api_005 用例标题: OrderMoney（波贝销售）
+2021-12-06 22:20:53.426 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求地址：http://test1.boxingtong.net:5222/analyse/dashboard/queryOrderMoney 请求方式get
+2021-12-06 22:20:53.427 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求参数：{'sign': '4f944222711338bdbbfa8b13bb97ca3a', 'days': '7'}
+2021-12-06 22:20:53.427 | INFO     | ApiTest.Comm.Logtype:info:22 - 获取token：beddf2d252cf45dfbef665b3c02db5ee0
+2021-12-06 22:20:53.727 | INFO     | ApiTest.Comm.Logtype:info:22 - message: 操作成功！
+2021-12-06 22:20:53.727 | INFO     | ApiTest.Comm.Logtype:info:22 - code响应正确预期:1==响应:1
+2021-12-06 22:20:53.728 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例通过
+2021-12-06 22:20:53.730 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例编号: bxt_api_006 用例标题: queryMoney（收入确认）
+2021-12-06 22:20:53.730 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求地址：http://test1.boxingtong.net:5222/analyse/dashboard/queryMoney 请求方式get
+2021-12-06 22:20:53.730 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求参数：{'sign': '4f944222711338bdbbfa8b13bb97ca3a', 'days': '7'}
+2021-12-06 22:20:53.730 | INFO     | ApiTest.Comm.Logtype:info:22 - 获取token：beddf2d252cf45dfbef665b3c02db5ee0
+2021-12-06 22:20:53.808 | INFO     | ApiTest.Comm.Logtype:info:22 - message: 操作成功！
+2021-12-06 22:20:53.809 | INFO     | ApiTest.Comm.Logtype:info:22 - code响应正确预期:1==响应:1
+2021-12-06 22:20:53.809 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例通过
+2021-12-06 22:20:53.817 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例编号: bxt_api_007 用例标题: newUser（昨日新增注册用户数）
+2021-12-06 22:20:53.817 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求地址：http://test1.boxingtong.net:5222/analyse/dashboard/newUser 请求方式get
+2021-12-06 22:20:53.818 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求参数：{'sign': '4f944222711338bdbbfa8b13bb97ca3a', 'days': '7'}
+2021-12-06 22:20:53.818 | INFO     | ApiTest.Comm.Logtype:info:22 - 获取token：beddf2d252cf45dfbef665b3c02db5ee0
+2021-12-06 22:20:54.373 | INFO     | ApiTest.Comm.Logtype:info:22 - message: 操作成功！
+2021-12-06 22:20:54.373 | INFO     | ApiTest.Comm.Logtype:info:22 - code响应正确预期:1==响应:1
+2021-12-06 22:20:54.374 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例通过
+2021-12-06 22:20:54.378 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例编号: bxt_api_008 用例标题: countShipIncrement（昨日新增注册船只）
+2021-12-06 22:20:54.378 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求地址：http://test1.boxingtong.net:5222/analyse/ship/countShipIncrement 请求方式get
+2021-12-06 22:20:54.378 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求参数：{'sign': '4f944222711338bdbbfa8b13bb97ca3a', 'days': '7'}
+2021-12-06 22:20:54.379 | INFO     | ApiTest.Comm.Logtype:info:22 - 获取token：beddf2d252cf45dfbef665b3c02db5ee0
+2021-12-06 22:20:54.505 | INFO     | ApiTest.Comm.Logtype:info:22 - message: 操作成功！
+2021-12-06 22:20:54.506 | ERROR    | ApiTest.Comm.Logtype:error:31 - code码不正确预期: 2, 响应: 1
+2021-12-06 22:20:54.506 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例不通过
+2021-12-06 22:20:54.583 | INFO     | ApiTest.Comm.Logtype:info:22 - 登录禅道-->账号:admin
+2021-12-06 22:20:54.630 | INFO     | ApiTest.Comm.Logtype:info:22 - 200-->登录成功!
+2021-12-06 22:20:54.631 | INFO     | ApiTest.Comm.Logtype:info:22 - 提交BUG--> 标题:countShipIncrement（昨日新增注册船只）接口用例失败
+2021-12-06 22:20:54.631 | INFO     | ApiTest.Comm.Logtype:info:22 - 指派-->admin
+2021-12-06 22:20:54.719 | INFO     | ApiTest.Comm.Logtype:info:22 - 提交BUG成功
+2021-12-06 22:20:56.803 | INFO     | ApiTest.Comm.Logtype:info:22 - bugID:076
+2021-12-06 22:20:56.803 | INFO     | ApiTest.Comm.Logtype:info:22 - bug链接:http://127.0.0.1/zentao/bug-view-76.html
+2021-12-06 22:20:56.808 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例编号: bxt_api_009 用例标题: queryShipToZoo（昨日跌零船只数）
+2021-12-06 22:20:56.808 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求地址：http://test1.boxingtong.net:5222/analyse/dashboard/queryShipToZoo 请求方式get
+2021-12-06 22:20:56.808 | INFO     | ApiTest.Comm.Logtype:info:22 - 请求参数：{'sign': '4f944222711338bdbbfa8b13bb97ca3a', 'days': '7'}
+2021-12-06 22:20:56.808 | INFO     | ApiTest.Comm.Logtype:info:22 - 获取token：beddf2d252cf45dfbef665b3c02db5ee0
+2021-12-06 22:20:57.039 | INFO     | ApiTest.Comm.Logtype:info:22 - message: 操作成功！
+2021-12-06 22:20:57.040 | INFO     | ApiTest.Comm.Logtype:info:22 - code响应正确预期:1==响应:1
+2021-12-06 22:20:57.040 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例通过
+2021-12-06 22:20:57.045 | INFO     | ApiTest.Comm.Logtype:info:22 - 用例执行完毕,生成allure测试报告保存至-->>D:\program\ApiTest\Report\html

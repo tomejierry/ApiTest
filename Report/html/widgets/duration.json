@@ -1,91 +1,91 @@
 [ {
-  "uid" : "462a1095363988b1",
-  "name" : "接口: bxt_api_004-queryTrafficAvg（日均流量消耗）",
-  "time" : {
-    "start" : 1639285185502,
-    "stop" : 1639285185547,
-    "duration" : 45
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9c9787a4a1cb7108",
-  "name" : "接口: bxt_api_005-OrderMoney（波贝销售）",
-  "time" : {
-    "start" : 1639285185551,
-    "stop" : 1639285185744,
-    "duration" : 193
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2cc66e4b636fc4e",
-  "name" : "接口: bxt_api_003-queryTraffic（流量消耗）",
-  "time" : {
-    "start" : 1639285185450,
-    "stop" : 1639285185495,
-    "duration" : 45
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "709accd4131c0517",
-  "name" : "接口: bxt_api_008-countShipIncrement（昨日新增注册船只）",
-  "time" : {
-    "start" : 1639285185926,
-    "stop" : 1639285186009,
-    "duration" : 83
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c095e5171a920375",
-  "name" : "接口: bxt_api_006-queryMoney（收入确认）",
-  "time" : {
-    "start" : 1639285185750,
-    "stop" : 1639285185793,
-    "duration" : 43
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e3f555af60845b0",
-  "name" : "接口: bxt_api_001-正确账号密码登录成功",
-  "time" : {
-    "start" : 1639285185323,
-    "stop" : 1639285185408,
-    "duration" : 85
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5daf57b777e11b17",
+  "uid" : "fbbc181355d5be17",
   "name" : "接口: bxt_api_002-ActiveStatistics（活跃数据）",
   "time" : {
-    "start" : 1639285185413,
-    "stop" : 1639285185444,
-    "duration" : 31
+    "start" : 1639888210052,
+    "stop" : 1639888210111,
+    "duration" : 59
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d71e1c9738de330",
-  "name" : "接口: bxt_api_007-newUser（昨日新增注册用户数）",
+  "uid" : "e715b75fadd8fef9",
+  "name" : "接口: bxt_api_006-queryMoney（收入确认）",
   "time" : {
-    "start" : 1639285185796,
-    "stop" : 1639285185919,
-    "duration" : 123
+    "start" : 1639888210471,
+    "stop" : 1639888210529,
+    "duration" : 58
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3f43e3fdc039e56f",
+  "uid" : "a751d1c7c344db69",
+  "name" : "接口: bxt_api_005-OrderMoney（波贝销售）",
+  "time" : {
+    "start" : 1639888210247,
+    "stop" : 1639888210463,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c04bf4f83a7f5045",
+  "name" : "接口: bxt_api_003-queryTraffic（流量消耗）",
+  "time" : {
+    "start" : 1639888210117,
+    "stop" : 1639888210167,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ee9521977c7315b",
   "name" : "接口: bxt_api_009-queryShipToZoo（昨日跌零船只数）",
   "time" : {
-    "start" : 1639285186016,
-    "stop" : 1639285186262,
-    "duration" : 246
+    "start" : 1639888210766,
+    "stop" : 1639888210873,
+    "duration" : 107
   },
-  "status" : "failed",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c161e5deaa51dd51",
+  "name" : "接口: bxt_api_001-正确账号密码登录成功",
+  "time" : {
+    "start" : 1639888209956,
+    "stop" : 1639888210046,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3237d451846467",
+  "name" : "接口: bxt_api_004-queryTrafficAvg（日均流量消耗）",
+  "time" : {
+    "start" : 1639888210171,
+    "stop" : 1639888210239,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6bcde5f7a24eded",
+  "name" : "接口: bxt_api_008-countShipIncrement（昨日新增注册船只）",
+  "time" : {
+    "start" : 1639888210676,
+    "stop" : 1639888210763,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc9b07ebf6cbdfef",
+  "name" : "接口: bxt_api_007-newUser（昨日新增注册用户数）",
+  "time" : {
+    "start" : 1639888210533,
+    "stop" : 1639888210674,
+    "duration" : 141
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

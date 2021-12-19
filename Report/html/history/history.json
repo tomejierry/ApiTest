@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "462a1095363988b1",
+      "uid" : "c3237d451846467",
       "status" : "passed",
       "time" : {
-        "start" : 1639285185502,
-        "stop" : 1639285185547,
-        "duration" : 45
+        "start" : 1639888210171,
+        "stop" : 1639888210239,
+        "duration" : 68
       }
     } ]
   },
@@ -28,32 +28,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "709accd4131c0517",
+      "uid" : "b6bcde5f7a24eded",
       "status" : "passed",
       "time" : {
-        "start" : 1639285185926,
-        "stop" : 1639285186009,
-        "duration" : 83
+        "start" : 1639888210676,
+        "stop" : 1639888210763,
+        "duration" : 87
       }
     } ]
   },
   "b1e67f307c1d7766f23eecfe5bcd9417" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3f43e3fdc039e56f",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: FAILURE: code码不正确响应: 1, 预期: 2\nassert '1' == '2'\n  - 2\n  + 1\ntest_boxingtong.py:56 in test_Eeop() -> check.equal(str(code), case_code, 'code码不正确' + '响应: ' + str(code) + ', 预期: ' + case_code)\n------------------------------------------------------------\nFailed Checks: 1",
+      "uid" : "7ee9521977c7315b",
+      "status" : "passed",
       "time" : {
-        "start" : 1639285186016,
-        "stop" : 1639285186262,
-        "duration" : 246
+        "start" : 1639888210766,
+        "stop" : 1639888210873,
+        "duration" : 107
       }
     } ]
   },
@@ -67,12 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2cc66e4b636fc4e",
+      "uid" : "c04bf4f83a7f5045",
       "status" : "passed",
       "time" : {
-        "start" : 1639285185450,
-        "stop" : 1639285185495,
-        "duration" : 45
+        "start" : 1639888210117,
+        "stop" : 1639888210167,
+        "duration" : 50
       }
     } ]
   },
@@ -86,12 +85,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9c9787a4a1cb7108",
+      "uid" : "a751d1c7c344db69",
       "status" : "passed",
       "time" : {
-        "start" : 1639285185551,
-        "stop" : 1639285185744,
-        "duration" : 193
+        "start" : 1639888210247,
+        "stop" : 1639888210463,
+        "duration" : 216
       }
     } ]
   },
@@ -105,12 +104,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d71e1c9738de330",
+      "uid" : "bc9b07ebf6cbdfef",
       "status" : "passed",
       "time" : {
-        "start" : 1639285185796,
-        "stop" : 1639285185919,
-        "duration" : 123
+        "start" : 1639888210533,
+        "stop" : 1639888210674,
+        "duration" : 141
       }
     } ]
   },
@@ -124,12 +123,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c095e5171a920375",
+      "uid" : "e715b75fadd8fef9",
       "status" : "passed",
       "time" : {
-        "start" : 1639285185750,
-        "stop" : 1639285185793,
-        "duration" : 43
+        "start" : 1639888210471,
+        "stop" : 1639888210529,
+        "duration" : 58
       }
     } ]
   },
@@ -143,12 +142,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5daf57b777e11b17",
+      "uid" : "fbbc181355d5be17",
       "status" : "passed",
       "time" : {
-        "start" : 1639285185413,
-        "stop" : 1639285185444,
-        "duration" : 31
+        "start" : 1639888210052,
+        "stop" : 1639888210111,
+        "duration" : 59
       }
     } ]
   },
@@ -162,12 +161,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e3f555af60845b0",
+      "uid" : "c161e5deaa51dd51",
       "status" : "passed",
       "time" : {
-        "start" : 1639285185323,
-        "stop" : 1639285185408,
-        "duration" : 85
+        "start" : 1639888209956,
+        "stop" : 1639888210046,
+        "duration" : 90
       }
     } ]
   }

@@ -26,7 +26,7 @@ class LoginPower(object):
         self.map.put('timestmap', time1)
 
         sign = self.signutil.getSign(self.map)                           # 拼接签名
-        loggings.info('获取token：' + gettoken[1])
+        # loggings.info('获取token：' + gettoken[1])
 
         header = {'Time-Stamp': time1, 'Sign-Name': str(sign), 'Token': gettoken[1]}
 
