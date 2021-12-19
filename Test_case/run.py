@@ -6,8 +6,6 @@ import time
 from ApiTest.Comm.Filepath import reportpath
 from ApiTest.Comm.Filepath import resultpath
 from ApiTest.Comm.Logtype import loggings
-
-#  , '--clean-alluredir',,, + ' --clean'
 reportdir = reportpath()
 resultdir = resultpath()
 

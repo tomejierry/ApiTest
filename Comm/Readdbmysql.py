@@ -1,7 +1,6 @@
 
 from ApiTest.Comm.Logtype import loggings
 import pymysql
-from Getcasefile import ReadExcel
 
 
 class DBmysql:
@@ -46,32 +45,40 @@ class DBmysql:
 # import astext
     def select_sql(self, sql):
         try:
-            self.cur.execute(sql)
             loggings.info('执行查询语句：' + sql)
+            self.cur.execute(sql)
+
             result = self.cur.fetchall()
+            lis = self.cur.description
+            # print(lis)
+            lt = []
+            for i in lis:
+                lt.append(i[0])
+
             # loggings.info('查询结果为'+str(result))
-            print(result)
-            return result
+            print('列名-->>' + str(lt))
+            print('查询数据-->>' + str(result))
+            return result                 # 返回一个元组对象
 
         except Exception as e:
             print('没有找到数据:', e)
         self.conn.close()
 
-    # def delete_sql(self, sql):
-    #     try:
-    #         self.cur.execute(sql)
-    #         self.conn.commit()
-    #         loggings.info('执行删除语句成功：' + sql)
-    #     except Exception as e:
-    #         print('数据删除失败', e)
-    #         loggings.error('数据删除失败,回滚数据')
-    #         self.conn.rollback()
-    #     self.conn.close()
+    def delete_sql(self, sql):
+        try:
+            self.cur.execute(sql)
+            self.conn.commit()
+            loggings.info('执行删除语句成功：' + sql)
+        except Exception as e:
+            print('数据删除失败', e)
+            loggings.error('数据删除失败,回滚数据')
+            self.conn.rollback()
+        self.conn.close()
 
 
 if __name__ == '__main__':
-    sqls = DBmysql('139.196.81.13', 3306, 'monitor', 'monitor6200', 'monitordb_test1')
+    sqls = DBmysql('101.132.243.1', 3306, 'center', 'center6200', 'centerdb_test1')
 #     sqls.insert_sql('INSERT INTO test1 VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,\
 #     %s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);')
-    sqls.select_sql('select polygongeo from t_polygo')
+    sqls.select_sql('select cast(update_time as char) as update_time from t_banner')
 #     sqls.delete_sql('sql')

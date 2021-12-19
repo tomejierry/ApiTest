@@ -20,7 +20,7 @@ loggings.info('开始执行接口自动化用例')
 
 
 @pytest.mark.parametrize('datas', data)
-@allure.epic('波星通运营管理系统')
+@allure.epic('波星通运营管理系统接口测试')
 def test_Eeop(datas):
     ss = LoginPower()
     header = ss.loginpower()
@@ -82,5 +82,5 @@ if __name__ == '__main__':
 
     loggings.info('用例执行完毕,生成allure测试报告保存至-->>' + reportdir)
     shutil.copy('d:/program/ApiTest/Report/environment.properties',
-                'D:/program/ApiTest/Report/result/environment.properties')
+                'd:/program/ApiTest/Report/result/environment.properties')
     os.system('allure generate ' + resultdir + ' -o ' + reportdir + ' --clean')
