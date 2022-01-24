@@ -1,16 +1,1 @@
-[ {
-  "values" : [ "win10" ],
-  "name" : "systemVersion"
-}, {
-  "values" : [ "3.9.0" ],
-  "name" : "pythonVersion"
-}, {
-  "values" : [ "2.9.43" ],
-  "name" : "allureVersion"
-}, {
-  "values" : [ "ApiTest" ],
-  "name" : "projectName"
-}, {
-  "values" : [ "yuetao" ],
-  "name" : "author"
-} ]
+[ ]

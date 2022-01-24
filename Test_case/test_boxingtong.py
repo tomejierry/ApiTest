@@ -78,9 +78,10 @@ if __name__ == '__main__':
     reportdir = reportpath()
     resultdir = resultpath()
 
-    pytest.main(["-sv", 'test_boxingtong.py', '--alluredir', resultdir, '--clean-alluredir'])  # 运行指定用例生成测试数据
+    pytest.main(["-sv", 'test_boxingtong.py', '--alluredir', resultdir, '--clean-alluredir',
+                 '-W', 'ignore:Module already imported:pytest.PytestWarning'])  # 运行指定用例生成测试数据
 
-    loggings.info('用例执行完毕,生成allure测试报告保存至-->>' + reportdir)
     shutil.copy('d:/program/ApiTest/Report/environment.properties',
                 'd:/program/ApiTest/Report/result/environment.properties')
     os.system('allure generate ' + resultdir + ' -o ' + reportdir + ' --clean')
+    loggings.info('用例执行完毕,生成allure测试报告保存至-->>' + reportdir)

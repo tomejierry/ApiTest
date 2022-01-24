@@ -64,7 +64,7 @@ def resultpath():
     """
     a = os.path.dirname(__file__)
     b = os.path.dirname(a)
-    c = os.path.join(b, 'Report', 'result')
+    c = 'D:/program/tomcat9/webapps/Jenkins/.jenkins/workspace/API_test/allure-results'
     return c
 
 
