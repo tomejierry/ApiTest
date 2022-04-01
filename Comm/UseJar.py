@@ -4,7 +4,7 @@ import time
 
 import requests
 from jpype import *
-from ApiTest.Comm.Howrequest import call
+
 from ApiTest.Comm.Filepath import casepath
 
 
@@ -13,7 +13,7 @@ class JAVA_Public(object):
     def __init__(self, filename, dirname):
         self.jar_path = casepath(filename, dirname)
 
-        self.jvm_Path = 'D:/program/JAVA/bin/server/jvm.dll'
+        self.jvm_Path = 'C:/Program Files/Java/jre1.8.0_321/bin/server/jvm.dll'
         try:
 
             jpype.startJVM(self.jvm_Path, '-Djava.class.path=%s' % self.jar_path)  # 启动JAVA环境
@@ -53,10 +53,9 @@ class JAVA_Public(object):
 
         return header, token
 
-#
-# if __name__ == "__main__":
-#     java = JAVA_Public('Data', 'fisher-jmetertoken.jar')
-#
-#     a = java.gettoken()
-#     jpype.shutdownJVM()  # 关闭JAVA环境
+
+if __name__ == "__main__":
+    java = JAVA_Public('Data', 'fisher-jmetertoken.jar')
+    print(java.gettoken())
+    jpype.shutdownJVM()  # 关闭JAVA环境
 

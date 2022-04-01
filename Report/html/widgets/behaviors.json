@@ -4,10 +4,10 @@
     "uid" : "64ba1b4ce6617a9670af589e65a292e5",
     "name" : "波星通运营管理系统接口测试",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

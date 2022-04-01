@@ -80,5 +80,5 @@ if __name__ == '__main__':
     sqls = DBmysql('101.132.243.1', 3306, 'center', 'center6200', 'centerdb_test1')
 #     sqls.insert_sql('INSERT INTO test1 VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,\
 #     %s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);')
-    sqls.select_sql('select cast(update_time as char) as update_time from t_banner')
+    sqls.select_sql('select title from t_banner where id=53')
 #     sqls.delete_sql('sql')

@@ -25,7 +25,7 @@ class Zentao:
 
         body = {"account": user,
                 "password": password,
-                "referer": "http://127.0.0.1/zentao/my/",
+                "referer": host + "/zentao/my/",
                 "keepLogin": 1
                 }
         get_sid = requests.get(url)
@@ -45,7 +45,7 @@ class Zentao:
 
     def addbug(self, touser, title, step, result, expect):
 
-        urls = "http://127.0.0.1/zentao/bug-create-2-0-moduleID=0.html"
+        urls = host + "/zentao/bug-create-2-0-moduleID=0.html"
         cookie = Zentao().login()[1]
         # text_1 = requests.get(urls, cookies=cookie).text
         # uid = re.findall("var kuid = '(.*?)';", text_1)[0]  # 获取UID

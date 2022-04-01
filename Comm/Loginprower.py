@@ -32,8 +32,8 @@ class LoginPower(object):
 
         return header
 
-#
-# if __name__ == '__main__':
-#     power = LoginPower()
-#     a = power.loginpower()
-#     print(a)
+
+if __name__ == '__main__':
+    power = LoginPower()
+    a = power.loginpower()
+    print(a)
