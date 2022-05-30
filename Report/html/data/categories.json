@@ -1,43 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: FAILURE: code码不正确响应: 1, 预期: 0\nassert '1' == '0'\n  - 0\n  + 1\ntest_EEOP.py:62 in test_EEOP() -> check.equal(str(code), case_code, 'code码不正确' + '响应: ' + str(code) + ', 预期: ' + case_code)\n------------------------------------------------------------\nFailed Checks: 1",
+      "name" : "AssertionError: FAILURE: code码不正确,响应1,预期0\nassert '1' == '0'\n  - 0\n  + 1\ntest_EEOP.py:62 in test_EEOP() -> check.equal(str(code), case_code, f'code码不正确,响应{code},预期{case_code}')\n------------------------------------------------------------\nFailed Checks: 1",
       "children" : [ {
         "name" : "接口: bxt_api_003-queryTraffic（流量消耗）",
-        "uid" : "f8cc193386b91b2",
-        "parentUid" : "5eb105d83c5bdde98c00ecd4a9b02e74",
+        "uid" : "d16ece9bdfe20624",
+        "parentUid" : "2a6dd7a59c9a8aa96339626143deba69",
         "status" : "failed",
         "time" : {
-          "start" : 1648796527164,
-          "stop" : 1648796527375,
-          "duration" : 211
+          "start" : 1653550654907,
+          "stop" : 1653550655144,
+          "duration" : 237
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'用例编号': 'bxt_api_003', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'queryTraffic（流量消耗）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/queryTraffic', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":0,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
       } ],
-      "uid" : "5eb105d83c5bdde98c00ecd4a9b02e74"
-    }, {
-      "name" : "AssertionError: FAILURE: 发送请求失败,状态码:404\nassert 404 == 200\n  +404\n  -200\ntest_EEOP.py:49 in test_EEOP() -> check.equal(req.status_code, requests.codes.ok, f'发送请求失败,状态码:{req.status_code}')\n------------------------------------------------------------\nFailed Checks: 1",
-      "children" : [ {
-        "name" : "接口: bxt_api_004-queryTrafficAvg（日均流量消耗）",
-        "uid" : "98af5aa7d3fbe72a",
-        "parentUid" : "d5e6660ed8a481a56663e83ca0038499",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648796527379,
-          "stop" : 1648796527429,
-          "duration" : 50
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'用例编号': 'bxt_api_004', '所属项目': '运营后台', '所属模块': '仪表盘', '用例标题': 'queryTrafficAvg（日均流量消耗）', '请求地址': 'http://test1.boxingtong.net:5222/analyse/dashboard/queryTrafficAv', '请求方式': 'get', '请求参数': '{\"sign\":\"4f944222711338bdbbfa8b13bb97ca3a\",\"days\":\"7\"}', '期望结果': '{\\n \"code\":1,\\n \"data\":[\\n ],\\n \"message\":\"操作成功！\"\\n}'}" ]
-      } ],
-      "uid" : "d5e6660ed8a481a56663e83ca0038499"
+      "uid" : "2a6dd7a59c9a8aa96339626143deba69"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
-  "name" : "categories"
+  } ]
 }

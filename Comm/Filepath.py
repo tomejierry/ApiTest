@@ -33,10 +33,6 @@ def screen():
     screen_save_path = c + time     # 用时间格式进行命名文件
 
     return screen_save_path
-#
-# a = screen()
-# print(a)
-
 
 
 # def logpath():
@@ -79,5 +75,4 @@ def Configlpath():
     c = os.path.join(b, 'Config', 'config.ini')
     return c
 
-# ss = resultpath ()
-# print(ss)
+

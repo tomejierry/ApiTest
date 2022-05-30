@@ -1,8 +1,8 @@
 import smtplib
 import os
 from ApiTest.Comm.ReadConfig import ReadConfig
-from ApiTest.Comm.Filepath import reportpath
-from ApiTest.Comm.Filepath import casepath
+
+from ApiTest.Comm.Filepath import *
 from ApiTest.Comm.Logtype import loggings
 from email.mime.text import MIMEText  # 发送字符串引入
 from email.mime.application import MIMEApplication

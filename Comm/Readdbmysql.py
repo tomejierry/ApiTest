@@ -1,34 +1,26 @@
-
 from ApiTest.Comm.Logtype import loggings
 import pymysql
+
+mysql_cfg = {'host': '101.132.243.1', 'port': 3306, 'username': 'center', 'pswd': 'center6200',
+             'dbname': 'centerdb_test1'}
 
 
 class DBmysql:
 
-    def __init__(self, host, port, username, pswd, dbname):
-        loggings.info('连接数据库'+dbname)
+    def __init__(self):
+        loggings.info('连接数据库' + mysql_cfg['dbname'])
         self.conn = pymysql.connect(
-            host=host,
-            user=username,
-            port=int(port),
-            password=pswd,
-            db=dbname,
+            host=mysql_cfg['host'],
+            user=mysql_cfg['username'],
+            port=int(mysql_cfg['port']),
+            password=mysql_cfg['pswd'],
+            db=mysql_cfg['dbname'],
             charset='utf8',
             # autocommit=True,    # 如果插入数据，， 是否自动提交? 和conn.commit()功能一致。
         )
         # ****python, 必须有一个游标对象， 用来给数据库发送sql语句， 并执行的.
         # 2. 创建游标对象，
         self.cur = self.conn.cursor()
-
-    # def creat_table(self, create_sql):
-    #     try:
-    #         loggings.info('执行创建新表' + create_sql)
-    #         self.cur.execute(create_sql)
-    #
-    #     except Exception as e:
-    #         print("创建数据表失败:", e)
-    #     else:
-    #         print("创建数据表成功;")
 
     # def insert_sql(self, sql):
     #
@@ -42,7 +34,7 @@ class DBmysql:
     #     print("插入数据成功;")
     #     List.clear()
     #     self.conn.close()
-# import astext
+
     def select_sql(self, sql):
         try:
             loggings.info('执行查询语句：' + sql)
@@ -58,7 +50,7 @@ class DBmysql:
             # loggings.info('查询结果为'+str(result))
             print('列名-->>' + str(lt))
             print('查询数据-->>' + str(result))
-            return result                 # 返回一个元组对象
+            return result  # 返回一个元组对象
 
         except Exception as e:
             print('没有找到数据:', e)
@@ -77,8 +69,8 @@ class DBmysql:
 
 
 if __name__ == '__main__':
-    sqls = DBmysql('101.132.243.1', 3306, 'center', 'center6200', 'centerdb_test1')
-#     sqls.insert_sql('INSERT INTO test1 VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,\
-#     %s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);')
-    sqls.select_sql('select title from t_banner where id=53')
-#     sqls.delete_sql('sql')
+    sqls = DBmysql()
+    #     sqls.insert_sql('INSERT INTO test1 VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,\
+    #     %s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);')
+    sqls.select_sql('sql')
+
