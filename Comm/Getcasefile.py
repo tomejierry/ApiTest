@@ -28,7 +28,7 @@ class ReadExcel(object):
         # 获取第一行的数据，作为字典的键值
         li1 = []
         for i in datas[0]:
-            # print(i.value)
+            print(i.value)
 
             li1.append(i.value)
 

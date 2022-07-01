@@ -61,7 +61,7 @@ def APP_gettoken():
         loggings.error(f'请求失败{e}')
 
 if __name__ == '__main__':
-    # power = LoginPower()
-    # a = power.loginpower()
-    # print(a)
+    power = LoginPower()
+    a = power.loginpower()
+    print(a)
     print(APP_gettoken())
