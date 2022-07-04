@@ -11,7 +11,7 @@ from ApiTest.Comm.Logtype import loggings
 if __name__ == '__main__':
     reportdir = reportpath()
     resultdir = resultpath()
-    pytest.main(["-sv", 'test_bxtAPP.py','test_EEOP.py', '--alluredir', resultdir, '--clean-alluredir',
+    pytest.main(["-sv", '.\\Test_case\\test_EEOP.py', '--alluredir', resultdir, '--clean-alluredir',
                  '-W', 'ignore:Module already imported:pytest.PytestWarning'])  # 运行指定用例生成测试数据
 
     shutil.copy('d:/program/ApiTest/Report/environment.properties',

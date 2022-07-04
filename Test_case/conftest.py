@@ -5,7 +5,7 @@ from _pytest.config import hookimpl
 import time
 from _pytest import terminal
 import re
-
+from ApiTest.Config.case_cfg import *
 from ApiTest.Comm.Logtype import loggings
 from ApiTest.Comm.Getcasefile import ReadExcel
 
@@ -25,7 +25,7 @@ from ApiTest.Comm.Getcasefile import ReadExcel
 def pytest_terminal_summary(terminalreporter, exitstatus, config):
     """ 收集测试结果的钩子函数，用做后续结果统计处理 """
 
-    report = terminalreporter.stats['']
+    # report = terminalreporter.stats['']
 
     loggings.info('获取所有测试用例执行结果')
     #
@@ -88,6 +88,7 @@ def pytest_terminal_summary(terminalreporter, exitstatus, config):
         loggings.info('把测试结果处理完成后，封装成列表嵌套列表格式:[[],[],...]')
         loggings.info(f'第{iii + 1}个测试函数test_{list_1[iii]}的所有结果--->{real1[iii]}')
         loggings.info('调用接口，把执行结果反写到测试用例中:write_data')
+        print(f'-----------------------{globals()[list_1[iii] + "_casecfg"]()}')
         data = ReadExcel(globals()[list_1[iii] + '_casecfg']())
         report_name = list_1[iii] + '接口用例测试报告.xlsx'
         data.write_data(lll, report_name)

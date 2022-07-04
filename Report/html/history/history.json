@@ -9,127 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "24c7b40e337315dd",
+      "uid" : "722773c115f2fb8b",
       "status" : "passed",
       "time" : {
-        "start" : 1653550658059,
-        "stop" : 1653550658159,
-        "duration" : 100
-      }
-    } ]
-  },
-  "5313bf5abe29cb74aab61d4cea2a7301" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "52261ccede2d3056",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653550657648,
-        "stop" : 1653550657726,
-        "duration" : 78
-      }
-    } ]
-  },
-  "ec20195cfcc6bf8a157031e8bdd70615" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e6be0070a4d896dc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653550654283,
-        "stop" : 1653550654435,
-        "duration" : 152
-      }
-    } ]
-  },
-  "9d3ae6238d6465a50357b3da5a12e89b" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d16ece9bdfe20624",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: FAILURE: code码不正确,响应1,预期0\nassert '1' == '0'\n  - 0\n  + 1\ntest_EEOP.py:62 in test_EEOP() -> check.equal(str(code), case_code, f'code码不正确,响应{code},预期{case_code}')\n------------------------------------------------------------\nFailed Checks: 1",
-      "time" : {
-        "start" : 1653550654907,
-        "stop" : 1653550655144,
-        "duration" : 237
-      }
-    } ]
-  },
-  "c1287b2582a10b05de514d7c08d89ab8" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "704a4915ec3eff88",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653550653805,
-        "stop" : 1653550653952,
-        "duration" : 147
-      }
-    } ]
-  },
-  "a04ba0e259adc164da821222a24e69b2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ff0e9c78641a6f4a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653550658167,
-        "stop" : 1653550658278,
-        "duration" : 111
-      }
-    } ]
-  },
-  "eabead8ecf337b537093d233dcd66b79" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8ed36346dd4fe377",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653550655363,
-        "stop" : 1653550657643,
-        "duration" : 2280
+        "start" : 1656904156825,
+        "stop" : 1656904156886,
+        "duration" : 61
       }
     } ]
   },
@@ -143,31 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "125441144a09e382",
+      "uid" : "f498f0f42f0c35ce",
       "status" : "passed",
       "time" : {
-        "start" : 1653550654785,
-        "stop" : 1653550654855,
-        "duration" : 70
-      }
-    } ]
-  },
-  "42ed5466ee5540f625e356e02c8fdc6e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7756d5a7d53475d5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653550652414,
-        "stop" : 1653550652931,
-        "duration" : 517
+        "start" : 1656904155565,
+        "stop" : 1656904155676,
+        "duration" : 111
       }
     } ]
   },
@@ -181,12 +47,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5d1ecb63f94bd982",
+      "uid" : "4e3acaf81ddd7b21",
       "status" : "passed",
       "time" : {
-        "start" : 1653550657731,
-        "stop" : 1653550658052,
-        "duration" : 321
+        "start" : 1656904156605,
+        "stop" : 1656904156815,
+        "duration" : 210
+      }
+    } ]
+  },
+  "5313bf5abe29cb74aab61d4cea2a7301" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1689bd3f3724a3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656904156501,
+        "stop" : 1656904156588,
+        "duration" : 87
       }
     } ]
   },
@@ -200,50 +85,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4047c71740267845",
+      "uid" : "78adc73258eb47b6",
       "status" : "passed",
       "time" : {
-        "start" : 1653550655148,
-        "stop" : 1653550655360,
-        "duration" : 212
+        "start" : 1656904155985,
+        "stop" : 1656904156024,
+        "duration" : 39
       }
     } ]
   },
-  "231ebb6dd927ccb879c7c5e1cf2cf035" : {
+  "9d3ae6238d6465a50357b3da5a12e89b" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9dc07b9f9c58335b",
-      "status" : "passed",
+      "uid" : "2bc9470529175275",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILURE: code码不正确,响应1,预期0\nassert '1' == '0'\n  - 0\n  + 1\nTest_case\\test_EEOP.py:60 in test_EEOP() -> check.equal(str(code), case_code, f'code码不正确,响应{code},预期{case_code}')\n------------------------------------------------------------\nFailed Checks: 1",
       "time" : {
-        "start" : 1653550653254,
-        "stop" : 1653550653556,
-        "duration" : 302
-      }
-    } ]
-  },
-  "1ac842b6433b6a3bde473b7a6d12eab0" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2f45b440d17d407f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653550653564,
-        "stop" : 1653550653798,
-        "duration" : 234
+        "start" : 1656904155746,
+        "stop" : 1656904155981,
+        "duration" : 235
       }
     } ]
   },
@@ -257,16 +124,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5dc41b44ad9fefd1",
+      "uid" : "eb7f8a9ccaaa885c",
       "status" : "passed",
       "time" : {
-        "start" : 1653550654863,
-        "stop" : 1653550654899,
-        "duration" : 36
+        "start" : 1656904155681,
+        "stop" : 1656904155743,
+        "duration" : 62
       }
     } ]
   },
-  "ee30e8d7cc7f288ddd56da7ee096622c" : {
+  "a04ba0e259adc164da821222a24e69b2" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -276,16 +143,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b689bff6daecba62",
+      "uid" : "def6ba49d0a09",
       "status" : "passed",
       "time" : {
-        "start" : 1653550654442,
-        "stop" : 1653550654776,
-        "duration" : 334
+        "start" : 1656904156903,
+        "stop" : 1656904156979,
+        "duration" : 76
       }
     } ]
   },
-  "6f57b06f682ae4b1799210d63a95228b" : {
+  "eabead8ecf337b537093d233dcd66b79" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -295,31 +162,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b112f635ce00b392",
+      "uid" : "ff3f23dc7906dc3a",
       "status" : "passed",
       "time" : {
-        "start" : 1653550653960,
-        "stop" : 1653550654279,
-        "duration" : 319
-      }
-    } ]
-  },
-  "1ddfbb740366b4b37774cf389f364bfe" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "23091bb824793f09",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653550652940,
-        "stop" : 1653550653246,
-        "duration" : 306
+        "start" : 1656904156027,
+        "stop" : 1656904156483,
+        "duration" : 456
       }
     } ]
   }
